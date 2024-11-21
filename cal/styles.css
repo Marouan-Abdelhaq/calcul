@@ -1,4 +1,3 @@
-/* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #6a11cb, #2575fc);
@@ -9,8 +8,7 @@ body {
     margin: 0;
     color: white;
   }
-  
-  /* Calculator Container */
+ 
   .calculator {
     background: #1e1e2f;
     border-radius: 15px;
@@ -18,8 +16,7 @@ body {
     overflow: hidden;
     width: 320px;
   }
-  
-  /* Display Screen */
+
   .display {
     background: #3e3e50;
     padding: 20px;
@@ -32,7 +29,6 @@ body {
     word-wrap: break-word;
   }
   
-  /* Buttons */
   .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
